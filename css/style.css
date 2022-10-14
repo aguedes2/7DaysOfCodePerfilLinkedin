@@ -2,13 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+* {
+  font-size: 16px;
+}
+
 :root {
   --fundo-escuro: #000000;
   --fundo-card: #1D2226;
   --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
   --texto-principal: hsla(0, 0%, 100%, 0.9);
   --texto-secundario: hsla(0, 0%, 100%, 0.6);
-  --texto-escuro: hsla(0, 0%, 100%, 0.75);
+  --texto-escuro: hsla(0, 0%, 0%, 0.75);
   --input: #70B5F9;
   --primario: #70B5F9;
   --positivo: #3EC786;
@@ -18,6 +22,7 @@
 body {
   background: var(--fundo-escuro);
   font-family: var(--roboto);
+  font-size: 16px;
 }
 
 /* Header e navbar*/
@@ -123,6 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 20em;
+  padding: 1em;
   color: var(--texto-principal);
   gap: 0.5em;
 }
@@ -133,12 +139,13 @@ body {
   font-size: 1em;
   line-height: 1.19em;
   gap: 0.5em;
+  margin: 0.3em 0;
 }
 
 .follower-card {
   display: flex;
   width: 100%;  
-  margin: 0.5em auto;
+  margin: 0.8em auto;
   gap: 1em;
 }
 
@@ -154,7 +161,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 0.75em;
-  line-height: 0.94em;
+  line-height: 1.4em;
   color: var(--texto-secundario);
   margin: 2px 0 7px 0;
 }
@@ -182,11 +189,123 @@ body {
   width: 100%;
   background: var(--fundo-card);
   border-radius: 1em;
-  padding: 1em 1em;
+  padding: 1.2em 1em;
 }
 
 .pessoas-talvez-conheca{}
 
 /* Fim da seção Followers */
+/* Sessão de informacao-perfil */
+
+#informacao-perfil {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  background: var(--fundo-card);
+}
+
+.foto-perfil {
+  width: 10em;
+  border-radius: 5em;
+  position: absolute;
+  top: 12.125em;
+  left: 1.5em;
+}
+
+.informacao-perfil-container-bottom {
+  display: flex;
+  align-items: flex-start;
+}
+
+.informacao-perfil-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;  
+  padding: 3.5em 1.5em 1.5em;
+}
+
+.profissional{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;  
+  margin: 56px auto;
+}
+
+.profisional-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link {
+  color: var(--texto-principal);
+  text-decoration: none;
+  line-height: 1.25em;
+  font-weight: 600;
+}
+
+.informacao-perfil-bottom h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.informacao-perfil-bottom h2 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+
+.informacao-perfil-content-bottom {
+  display: flex;
+  align-items: center;
+  gap: 0.31em;
+}
+
+.informacao-perfil-bottom p, .informacao-perfil-content-bottom{
+  color: var(--texto-secundario);
+  font-size: 0.875em;
+  line-height: 1.25em;
+}
+
+.informacao-perfil-content-bottom a{
+  color: var(--primario);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#ponto {
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--texto-secundario);
+}
+
+.botoes {
+  display: flex;
+  gap: 7px;
+}
+
+.botoes button{
+  border-radius: 1em;
+  line-height: 1.25em;
+  width: 10em;
+  height: 3em;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+#btn-msg {
+  background: var(--primario);
+  color: var(--texto-escuro);
+  padding: 7px 29px;  
+}
+
+#btn-mais {
+  background: var(--fundo-card);
+  color: var(--primario);
+  border: 1px solid var(--primario);
+}
 
 #footer{}
