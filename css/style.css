@@ -1,0 +1,11 @@
+:root {
+  --fundo-escuro: #000000;
+  --fundo-card: #1D2226;
+  --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+  --texto-principal: hsla(0, 0%, 100%, 0.9);
+  --texto-secundario: hsla(0, 0%, 100%, 0.6);
+  --texto-escuro: hsla(0, 0%, 100%, 0.75);
+  --input: #70B5F9;
+  --primario: #70B5F9;
+  --positivo: #3EC786;
+}
