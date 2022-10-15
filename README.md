@@ -36,7 +36,7 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   
   ## Informações do Perfil
   
-  ![img](https://i.imgur.com/xtijUw3.png)
+  ![Imgur](https://i.imgur.com/xtijUw3.png)
   
   Seção construída como cartão de visita do usuário.
    [ x ] um resumo de suas habilidades
@@ -46,4 +46,4 @@ OBS.: As duas seções acima foram construídas numa tag aside.
    [ x ] Possibilidade de enviar mensagem para a pessoa por meio do botão Mensagem
    [ x ] Mais informações relacionadas à pessoa pelo botão 'Mais'
   
-  ![Imgur](https://i.imgur.com/xtijUw3.png)
+  
