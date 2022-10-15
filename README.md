@@ -12,3 +12,22 @@ Criação da interface da tela de perfil do linkedin (dark mode).
 
 Os ícones foram retirados do https://fonts.google.com/icons.
 Utilizei um único ícone da categoria Material Icons (apps), todos os outros utilizando a categoria Material Symbols.
+
+# Seção Followers
+
+## Cards de pessoas que nos seguem
+
+Esta seção é composta por vários cards com o nome e sobrenome das pessoas que estão em nossa rede e que também viram certo conteúdo.
+Nos cards há um resumo do perfil da pessoa: Título, cargo e tecnologias, além de algum texto relacionado a suas habilidades.
+
+![img](https://i.imgur.com/x1sB4iR.png)
+
+# Seção Pessoas que talvez você conheça
+
+## Cards de sugestão de pessoas à nossa rede.
+
+É construída exatamente igual à seção anterior (Pessoas que também viram).
+
+![img](https://i.imgur.com/fhC4RYG.png)
+
+OBS.: As duas seções acima foram construídas numa tag aside.
