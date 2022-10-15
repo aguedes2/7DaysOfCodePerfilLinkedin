@@ -61,3 +61,9 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   * Quantidade de comentários desta publicação
   
 ***
+ ## Atividades
+ ![Imgur](https://i.imgur.com/eXyZV6B.png)
+ 
+ Seção atividades, mostra as últimas atividades do usuário.
+ **Também desenvolvido em forma de cards**
+ Desta vez os cards estão alinhados dispostos em coluna.
