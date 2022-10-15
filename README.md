@@ -39,11 +39,11 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   ![Imgur](https://i.imgur.com/xtijUw3.png)
   
   Seção construída como cartão de visita do usuário.
-   [ x ] um resumo de suas habilidades
-   [ x ] Indentificação da empresa que trabalha
-   [ x ] Instituição de ensino que estuda(ou)
-   [ x ] Localização
-   [ x ] Possibilidade de enviar mensagem para a pessoa por meio do botão Mensagem
-   [ x ] Mais informações relacionadas à pessoa pelo botão 'Mais'
+   [x] um resumo de suas habilidades
+   [x] Indentificação da empresa que trabalha
+   [x] Instituição de ensino que estuda(ou)
+   [x] Localização
+   [x] Possibilidade de enviar mensagem para a pessoa por meio do botão Mensagem
+   [x] Mais informações relacionadas à pessoa pelo botão 'Mais'
   
   
