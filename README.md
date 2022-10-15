@@ -46,4 +46,14 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   - [x] Possibilidade de enviar mensagem para a pessoa por meio do botão Mensagem
   - [x] Mais informações relacionadas à pessoa pelo botão 'Mais'
   
+  ## Destaques
+  ![Imgur](https://i.imgur.com/h0d92QO.png)
+  
+  Seção que visa aprensentar as publicações resentes do usuário.
+  
+  - [x] Título da publicação
+  - [x] Legenda da publicação
+  - [x] Imagem ou Conteúdo da publicação
+  - [x] Quantidade de curtidas
+  - [x] Quantidade de comentários desta publicação
   
