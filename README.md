@@ -9,3 +9,6 @@ Criação da interface da tela de perfil do linkedin (dark mode).
 ![img](https://i.imgur.com/DRqSfxG.png)
 
 É possível perceber que o conteúdo não é exatamente centralizado, estando um pouco mais à esquerda. Para reproduzir isso de modo que se aproximasse do original foi necessário atribuir margen à esquerda.
+
+Os ícones foram retirados do https://fonts.google.com/icons.
+Utilizei um único ícone da categoria Material Icons (apps), todos os outros utilizando a categoria Material Symbols.
