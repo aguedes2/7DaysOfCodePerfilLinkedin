@@ -242,7 +242,7 @@ body {
   font-weight: 600;
 }
 
-.informacao-perfil-bottom h1 {
+.informacao-perfil-bottom h1, #activities h1, #destaques h1 {
   font-size: 1.5em;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
@@ -259,12 +259,12 @@ body {
   gap: 0.31em;
 }
 
-.informacao-perfil-bottom p, .informacao-perfil-content-bottom{
+.informacao-perfil-bottom p, .informacao-perfil-content-bottom, .card-activities-header span{
   color: var(--texto-secundario);
   font-size: 0.875em;
 }
 
-.informacao-perfil-content-bottom a{
+.informacao-perfil-content-bottom a, #activities a{
   color: var(--primario);
   font-weight: 700;
   text-decoration: none;
@@ -344,7 +344,7 @@ body {
   padding: 0 0.875em;
 }
 
-.card-destaque span {
+.card-destaque span, .card-activities span {
   color: var(--texto-secundario);
   margin-bottom: 0.25em;
 }
@@ -353,7 +353,7 @@ body {
   width: 100%;
 }
 
-.rodape-destaque {
+.rodape-destaque, .rodape-activity {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -361,7 +361,7 @@ body {
   font-size: 0.75em;
 }
 
-.rodape-destaque-curtidas {
+.rodape-destaque-curtidas, .rodape-activity-curtidas {
   display: flex;
   align-items: center;
 }
@@ -399,9 +399,57 @@ body {
   left: 15px;
 }
 
-.rodape-destaque-curtidas span {
+.rodape-destaque-curtidas span, .rodape-activity-curtidas span {
   position: relative;
   left: 20px;
 }
 
+
+/* Fim destaques */
+/* Atividades */
+#activities{
+  display: flex;
+  flex-direction: column;
+  background: var(--fundo-card);
+  border-radius: 1em;
+  margin-top: 0.5em;
+  padding: 1em 1.5em;
+  gap: 0.5em;
+}
+
+.card-activities {
+  margin-top : 13px;
+}
+
+.card-activities-body {
+  display: flex;
+  padding: 0.5em 0;
+  gap: 0.5em;
+}
+
+.card-activities-body img{
+  width: 4em;
+}
+
+.card-activities-body p {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.card-activities hr {
+  border: 1px solid var(--texto-secundario);
+}
+
+.activities-footer {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.875em;
+  color: var(--texto-secundario);
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer*/
 #footer{}
