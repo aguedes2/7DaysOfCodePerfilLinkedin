@@ -15,7 +15,7 @@ Utilizei um único ícone da categoria Material Icons (apps), todos os outros ut
 
 <details>
 <summary>Clique aqui para exibir o código HTML</summary>
-```~~~HTML
+```
   <header id="header">
       <nav class="nav-container">
         <div class="nav-container-icon">
@@ -93,7 +93,7 @@ Nos cards há um resumo do perfil da pessoa: Título, cargo e tecnologias, além
 
 <details>
   <summary>Clique para ver o código do card</summary>
-  ```~~~HTML
+  ```
   <div class="pessoas-viram">
           <h1 class="cabecalho-card">As pessoas que também viram</h1>
           <div class="follower-card">
