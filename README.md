@@ -6,7 +6,7 @@ Criação da interface da tela de perfil do linkedin (dark mode).
 # Barra de navegação
 
 ## Inclui um input de buscas e os links de navegação.
-![img](https://i.imgur.com/DRqSfxG.png)
+:![img](https://i.imgur.com/DRqSfxG.png):
 
 É possível perceber que o conteúdo não é exatamente centralizado, estando um pouco mais à esquerda. Para reproduzir isso de modo que se aproximasse do original foi necessário atribuir margen à esquerda.
 
@@ -21,7 +21,7 @@ Utilizei um único ícone da categoria Material Icons (apps), todos os outros ut
 Esta seção é composta por vários cards com o nome e sobrenome das pessoas que estão em nossa rede e que também viram certo conteúdo.
 Nos cards há um resumo do perfil da pessoa: Título, cargo e tecnologias, além de algum texto relacionado a suas habilidades.
 
-![img](https://i.imgur.com/x1sB4iR.png)
+:![img](https://i.imgur.com/x1sB4iR.png):
 
 # Seção Pessoas que talvez você conheça
 
@@ -29,7 +29,7 @@ Nos cards há um resumo do perfil da pessoa: Título, cargo e tecnologias, além
 
 É construída exatamente igual à seção anterior (Pessoas que também viram).
 
-![img](https://i.imgur.com/fhC4RYG.png)
+:![img](https://i.imgur.com/fhC4RYG.png):
 
 OBS.: As duas seções acima foram construídas numa tag aside.
 
@@ -37,7 +37,7 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   
   ## Informações do Perfil
   
-  ![Imgur](https://i.imgur.com/xtijUw3.png)
+  :![Imgur](https://i.imgur.com/xtijUw3.png):
   
   Seção construída como cartão de visita do usuário.
   * Um resumo de suas habilidades
@@ -48,7 +48,7 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   * Mais informações relacionadas à pessoa pelo botão 'Mais'
   
   ## Destaques
-  ![Imgur](https://i.imgur.com/h0d92QO.png)
+  :![Imgur](https://i.imgur.com/h0d92QO.png):
   
   Seção que visa aprensentar as publicações resentes do usuário.
   
