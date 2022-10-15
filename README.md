@@ -13,67 +13,6 @@ Criação da interface da tela de perfil do linkedin (dark mode).
 Os ícones foram retirados do https://fonts.google.com/icons.
 Utilizei um único ícone da categoria Material Icons (apps), todos os outros utilizando a categoria Material Symbols.
 
-```
-<header id="header">
-      <nav class="nav-container">
-        <div class="nav-container-icon">
-          <a class="nav-icone-link" href="#">
-            <img
-              src="imgs/linkedin.svg"
-              alt="logo linkedin"
-              width="34"
-              height="34"
-            />
-          </a>
-          <div class="input">
-            <span class="material-symbols-outlined">search</span>
-            <input type="search" placeholder="Pesquisar" />
-          </div>
-        </div>
-
-        <div class="icones">
-          <div class="icones-icone">
-            <a class="nav-icone-link" href="#">
-              <span class="material-symbols-outlined">home</span>
-              <span class="icone-span">inicio</span>
-            </a>
-          </div>
-          <div class="icones-icone">
-            <a class="nav-icone-link" href="#">
-              <span class="material-symbols-outlined">group</span>
-              <span class="icone-span">minha rede</span>
-            </a>
-          </div>
-          <div class="icones-icone">
-            <a class="nav-icone-link" href="#">
-              <span class="material-symbols-outlined">business_center</span>
-              <span class="icone-span">vagas</span>
-            </a>
-          </div>
-          <div class="icones-icone">
-            <a class="nav-icone-link" href="#">
-              <span class="material-symbols-outlined">sms</span>
-              <span class="icone-span">mensagem</span>
-            </a>
-          </div>
-          <div class="icones-icone">
-            <a class="nav-icone-link" href="#">
-              <span class="material-symbols-outlined">notifications</span>
-              <span class="icone-span">notificacoes</span>
-            </a>
-          </div>
-          <div class="divisao"></div>
-
-          <div class="icones-icone">
-            <a class="nav-icone-link" href="#">
-              <span class="material-icons">apps</span>
-              <span class="icone-span">solucoes</span>
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-```
 
 # Seção Followers
 
