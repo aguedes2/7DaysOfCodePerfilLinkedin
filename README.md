@@ -6,13 +6,15 @@ Criação da interface da tela de perfil do linkedin (dark mode).
 # Barra de navegação
 
 ## Inclui um input de buscas e os links de navegação.
-:![img](https://i.imgur.com/DRqSfxG.png):
+<center>![img](https://i.imgur.com/DRqSfxG.png)</center>
 
 É possível perceber que o conteúdo não é exatamente centralizado, estando um pouco mais à esquerda. Para reproduzir isso de modo que se aproximasse do original foi necessário atribuir margen à esquerda.
 
 Os ícones foram retirados do https://fonts.google.com/icons.
 Utilizei um único ícone da categoria Material Icons (apps), todos os outros utilizando a categoria Material Symbols.
 
+___
+___
 
 # Seção Followers
 
@@ -21,7 +23,7 @@ Utilizei um único ícone da categoria Material Icons (apps), todos os outros ut
 Esta seção é composta por vários cards com o nome e sobrenome das pessoas que estão em nossa rede e que também viram certo conteúdo.
 Nos cards há um resumo do perfil da pessoa: Título, cargo e tecnologias, além de algum texto relacionado a suas habilidades.
 
-:![img](https://i.imgur.com/x1sB4iR.png):
+<center>![img](https://i.imgur.com/x1sB4iR.png)</center>
 
 # Seção Pessoas que talvez você conheça
 
@@ -29,15 +31,16 @@ Nos cards há um resumo do perfil da pessoa: Título, cargo e tecnologias, além
 
 É construída exatamente igual à seção anterior (Pessoas que também viram).
 
-:![img](https://i.imgur.com/fhC4RYG.png):
+<center>![img](https://i.imgur.com/fhC4RYG.png)</center>
 
 OBS.: As duas seções acima foram construídas numa tag aside.
-
+___
+___
 # Seção Principali <main>
   
   ## Informações do Perfil
   
-  :![Imgur](https://i.imgur.com/xtijUw3.png):
+  <center>![Imgur](https://i.imgur.com/xtijUw3.png)</center>
   
   Seção construída como cartão de visita do usuário.
   * Um resumo de suas habilidades
@@ -46,9 +49,9 @@ OBS.: As duas seções acima foram construídas numa tag aside.
   * Localização
   * Possibilidade de enviar mensagem para a pessoa por meio do botão Mensagem
   * Mais informações relacionadas à pessoa pelo botão 'Mais'
-  
+  ***
   ## Destaques
-  :![Imgur](https://i.imgur.com/h0d92QO.png):
+  <center>![Imgur](https://i.imgur.com/h0d92QO.png)</center>
   
   Seção que visa aprensentar as publicações resentes do usuário.
   
