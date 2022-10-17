@@ -26,51 +26,6 @@ body {
   font-size: 16px;
 }
 
-/* Genéricos */
-.text-secundary{
-  color: var(--texto-secundario);
-  font-size: 0.875em;
-}
-
-.cabecalho-card {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  gap: 0.5em;
-  margin: 0.3em 0;
-}
-
-.rodape-card {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0.5em;
-}
-
-.rodape-card-curtidas {
-}
-
-#curtidas {
-  background: transparent;
-  border: none;
-  outline: none;
-}
-
-.circulos {
-  position: relative;
-}
-
-.circulo1, .circulo2, .circulo3 {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  border-radius: 1px;
-}
-.circulo1 {
-  background-color: #3EC786;
-}
-
-.rodape-card-comentarios {}
-
 /* Header e navbar*/
 #header {
   background: var(--fundo-card);
@@ -178,7 +133,13 @@ body {
   gap: 0.5em;
 }
 
-
+.cabecalho-card {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  gap: 0.5em;
+  margin: 0.3em 0;
+}
 
 .follower-card {
   display: flex;
@@ -228,6 +189,8 @@ body {
   border-radius: 1em;
   padding: 1.2em 1em;
 }
+
+.pessoas-talvez-conheca{}
 
 /* Fim da seção Followers */
 /* Sessão de informacao-perfil */
@@ -279,7 +242,7 @@ body {
   font-weight: 600;
 }
 
-.informacao-perfil-bottom h1, #activities h1, #destaques h1, .container h1 {
+.informacao-perfil-bottom h1, #activities h1 {
   font-size: 1.5em;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
@@ -294,6 +257,11 @@ body {
   display: flex;
   align-items: center;
   gap: 0.31em;
+}
+
+.informacao-perfil-bottom p, .informacao-perfil-content-bottom, .card-activities-header span{
+  color: var(--texto-secundario);
+  font-size: 0.875em;
 }
 
 .informacao-perfil-content-bottom a, #activities a{
@@ -335,7 +303,7 @@ body {
 }
 
 /* Destaques */
-#destaques, #activities, .container {
+#destaques {
   display: flex;
   flex-direction: column;
   background: var(--fundo-card);
@@ -345,7 +313,7 @@ body {
   gap: 0.5em;
 }
 
-.cabecalho {
+.destaques-cabecalho {
   font-size: 1.25em;
   font-weight: 600;
   color: var(--texto-principal);
@@ -362,19 +330,18 @@ body {
   max-width: fit-content;
 }
 
-.card-cabecalho {
+.card-destaque-cabecalho {
   font-size: 0.75em;
   padding: 1em 0 0 0.875em;
   color: var(--texto-secundario);
   font-weight:400;
 }
 
-
-h3 {
+.card-destaque h2 {
   font-size: 0.875em;
   font-weight: 400;
   color: var(--texto-principal);
-  padding: 0 0.875em;
+  padding: 0 0.8em;
 }
 
 .card-destaque span, .card-activities span {
@@ -386,7 +353,7 @@ h3 {
   width: 100%;
 }
 
-.card-rodape {
+.rodape-destaque, .rodape-activity {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -394,9 +361,69 @@ h3 {
   font-size: 0.75em;
 }
 
-/** Sessão Atividades*/
-.card-activities-body{
+.rodape-destaque-curtidas, .rodape-activity-curtidas {
   display: flex;
+  align-items: center;
+}
+
+#curtidas {
+  background: transparent;
+  min-width: fit-content;
+  padding: 0 2px;
+  border: none;
+}
+
+.circulos{
+  display: flex;
+  position: relative;
+}
+
+#circulo1, #circulo2, #circulo3 {
+  width: 1em;
+  height: 1em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+#circulo1 {
+  background: #378FE9;
+}
+#circulo2 {
+  position: absolute;
+  background: #6DAE4F;
+  left: 8px;
+}
+#circulo3 {  
+  position: absolute;
+  background: #DF704D;
+  left: 15px;
+}
+
+.rodape-destaque-curtidas span, .rodape-activity-curtidas span {
+  position: relative;
+  left: 20px;
+}
+
+
+/* Fim destaques */
+/* Atividades */
+#activities{
+  display: flex;
+  flex-direction: column;
+  background: var(--fundo-card);
+  border-radius: 1em;
+  margin-top: 0.5em;
+  padding: 1em 1.5em;
+  gap: 0.5em;
+}
+
+.card-activities {
+  margin-top : 13px;
+}
+
+.card-activities-body {
+  display: flex;
+  padding: 0.5em 0;
   gap: 0.5em;
 }
 
@@ -404,17 +431,25 @@ h3 {
   width: 4em;
 }
 
-.card-text {
-  margin: 0.5em 0.6em;
+.card-activities-body p {
+  font-size: 0.875em;
+  font-weight: 400;
 }
 
-/** Sessão Sobre*/
-
-.container p{
-  margin-top: 0.5em;
-  color: var(--texto-principal);  
+.card-activities hr {
+  border: 1px solid var(--texto-secundario);
 }
 
-/* Fim Sessão Sobre*/
+.activities-footer {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.875em;
+  color: var(--texto-secundario);
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 
+/* Footer*/
 #footer{}
