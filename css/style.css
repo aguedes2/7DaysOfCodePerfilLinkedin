@@ -26,6 +26,51 @@ body {
   font-size: 16px;
 }
 
+/* Genéricos */
+.text-secundary{
+  color: var(--texto-secundario);
+  font-size: 0.875em;
+}
+
+.cabecalho-card {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  gap: 0.5em;
+  margin: 0.3em 0;
+}
+
+.rodape-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5em;
+}
+
+.rodape-card-curtidas {
+}
+
+#curtidas {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.circulos {
+  position: relative;
+}
+
+.circulo1, .circulo2, .circulo3 {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+}
+.circulo1 {
+  background-color: #3EC786;
+}
+
+.rodape-card-comentarios {}
+
 /* Header e navbar*/
 #header {
   background: var(--fundo-card);
@@ -133,13 +178,7 @@ body {
   gap: 0.5em;
 }
 
-.cabecalho-card {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  gap: 0.5em;
-  margin: 0.3em 0;
-}
+
 
 .follower-card {
   display: flex;
@@ -189,8 +228,6 @@ body {
   border-radius: 1em;
   padding: 1.2em 1em;
 }
-
-.pessoas-talvez-conheca{}
 
 /* Fim da seção Followers */
 /* Sessão de informacao-perfil */
@@ -259,11 +296,6 @@ body {
   gap: 0.31em;
 }
 
-.informacao-perfil-bottom p, .informacao-perfil-content-bottom, .card-activities-header span{
-  color: var(--texto-secundario);
-  font-size: 0.875em;
-}
-
 .informacao-perfil-content-bottom a, #activities a{
   color: var(--primario);
   font-weight: 700;
@@ -303,7 +335,7 @@ body {
 }
 
 /* Destaques */
-#destaques, .container {
+#destaques, #activities, .container {
   display: flex;
   flex-direction: column;
   background: var(--fundo-card);
@@ -313,7 +345,7 @@ body {
   gap: 0.5em;
 }
 
-.destaques-cabecalho {
+.cabecalho {
   font-size: 1.25em;
   font-weight: 600;
   color: var(--texto-principal);
@@ -330,14 +362,15 @@ body {
   max-width: fit-content;
 }
 
-.card-destaque-cabecalho {
+.card-cabecalho {
   font-size: 0.75em;
   padding: 1em 0 0 0.875em;
   color: var(--texto-secundario);
   font-weight:400;
 }
 
-.card-destaque h2 {
+
+h3 {
   font-size: 0.875em;
   font-weight: 400;
   color: var(--texto-principal);
@@ -353,7 +386,7 @@ body {
   width: 100%;
 }
 
-.rodape-destaque, .rodape-activity {
+.card-rodape {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -361,10 +394,27 @@ body {
   font-size: 0.75em;
 }
 
+/** Sessão Atividades*/
+.card-activities-body{
+  display: flex;
+  gap: 0.5em;
+}
 
-.container p{
-  color: var(--texto-principal);  
+.card-activities-body img{
+  width: 4em;
+}
+
+.card-text {
+  margin: 0.5em 0.6em;
 }
 
 /** Sessão Sobre*/
+
+.container p{
+  margin-top: 0.5em;
+  color: var(--texto-principal);  
+}
+
+/* Fim Sessão Sobre*/
+
 #footer{}
