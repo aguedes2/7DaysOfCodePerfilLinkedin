@@ -20,6 +20,11 @@
   --roboto: 'Roboto', sans-serif;
 }
 
+.text-secundary {
+  color: var(--texto-secundario);
+  font-size: 0.875em;
+}
+
 body {
   background: var(--fundo-escuro);
   font-family: var(--roboto);
@@ -454,7 +459,7 @@ body {
 
 /* Seção Sobre*/
 
-#sobre{
+#sobre, #experiencias{
   background: var(--fundo-card);
   margin: 1em 0;
   border-radius: 1em;
@@ -464,7 +469,7 @@ body {
   gap: 0.5em;
 }
 
-#sobre h1 {
+#sobre h1, #experiencias h1 {
   font-size: 1.25em;
 }
 
@@ -472,6 +477,80 @@ body {
   font-size: 0.875em;
   text-align: justify;
 }
+
+/* Seção Experiências*/
+#experiencias {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+#experiencias h1 {
+  margin-bottom: 0.5em;
+}
+
+.cabecalho-experiencias {
+  display: flex;
+  gap: 0.875em;
+}
+
+.cabecalho-experiencias img {
+  width:3em;
+}
+
+.cabecalho-experiencais h2 {
+  font-weight: 500;
+  color: var(--texto-principal)
+}
+
+.cabecalho-experiencais span {
+  color: var(--texto-secundario);
+  font-size: 0.875em;
+}
+
+.experiencia-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  margin-left: 1.5em;
+}
+
+.experiencia-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.experiencia-item h3 {
+  color: var(--texto-principal);
+  font-size: 0.875em;
+}
+
+.item-content {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.box-item {
+  padding-left: 1em;
+  border-left: 1px solid var(--texto-secundario)
+}
+
+.cabecalho-item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.ponto-2 {
+  margin: -3px;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 0.25em;
+  background: var(--texto-principal)
+}
+
 
 /* Footer*/
 #footer{}
