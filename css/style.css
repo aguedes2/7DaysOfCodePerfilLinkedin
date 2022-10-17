@@ -376,6 +376,7 @@ body {
 .circulos{
   display: flex;
   position: relative;
+  cursor: pointer;
 }
 
 #circulo1, #circulo2, #circulo3 {
@@ -449,6 +450,27 @@ body {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+/* Seção Sobre*/
+
+#sobre{
+  background: var(--fundo-card);
+  margin: 1em 0;
+  border-radius: 1em;
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+#sobre h1 {
+  font-size: 1.25em;
+}
+
+#sobre p{
+  font-size: 0.875em;
+  text-align: justify;
 }
 
 /* Footer*/
