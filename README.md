@@ -83,4 +83,8 @@ OBS.: As duas seções acima foram construídas numa tag aside.
 ## Idiomas
 ![Imgur](https://i.imgur.com/ErKyIro.png)
 
-Idiomas falado pelo usuário.
+Relação do(s) dioma(s) falado(s) pelo usuário.
+
+***
+
+### Próximo passo: _refatorar arquivos de estilo pensando na manutenibilidade._
