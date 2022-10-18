@@ -459,7 +459,7 @@ body {
 
 /* Seção Sobre*/
 
-#sobre, #experiencias{
+#sobre, #experiencias, #formacao{
   background: var(--fundo-card);
   margin: 1em 0;
   border-radius: 1em;
@@ -469,7 +469,7 @@ body {
   gap: 0.5em;
 }
 
-#sobre h1, #experiencias h1 {
+#sobre h1, #experiencias h1, #formacao h1 {
   font-size: 1.25em;
 }
 
@@ -498,12 +498,12 @@ body {
   width:3em;
 }
 
-.cabecalho-experiencais h2 {
+.cabecalho-experiencais h2, .formacao-content h2 {
   font-weight: 500;
   color: var(--texto-principal)
 }
 
-.cabecalho-experiencais span {
+.cabecalho-experiencais span, .formacao-content span {
   color: var(--texto-secundario);
   font-size: 0.875em;
 }
@@ -551,6 +551,23 @@ body {
   background: var(--texto-principal)
 }
 
+/**/
+
+#formacao {
+}
+
+.formacao-content{
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.formacao-content img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.formacao-content h1
 
 /* Footer*/
 #footer{}
