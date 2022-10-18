@@ -67,3 +67,20 @@ OBS.: As duas seções acima foram construídas numa tag aside.
  Seção atividades, mostra as últimas atividades do usuário.
  **Também desenvolvido em forma de cards**
  Desta vez os cards estão alinhados dispostos em coluna.
+
+***
+ ## Experiências
+ ![Imgur](https://i.imgur.com/OFRlonc.png)
+ 
+ Seção que visa apresentar um curriculo resynudi do usuário.
+ 
+***
+ ## Formação acadêmica
+ ![Imgur](https://i.imgur.com/AJa3TlG.png)
+ Histórico escolar do usuário.
+ 
+***
+## Idiomas
+![Imgur](https://i.imgur.com/ErKyIro.png)
+
+Idiomas falado pelo usuário.
