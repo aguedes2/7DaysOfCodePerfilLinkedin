@@ -459,7 +459,7 @@ body {
 
 /* Seção Sobre*/
 
-#sobre, #experiencias, #formacao{
+#sobre, #experiencias, #formacao, #idiomas{
   background: var(--fundo-card);
   margin: 1em 0;
   border-radius: 1em;
@@ -469,7 +469,7 @@ body {
   gap: 0.5em;
 }
 
-#sobre h1, #experiencias h1, #formacao h1 {
+#sobre h1, #experiencias h1, #formacao h1, #idiomas h1 {
   font-size: 1.25em;
 }
 
@@ -548,12 +548,7 @@ body {
   width: 0.5em;
   height: 0.5em;
   border-radius: 0.25em;
-  background: var(--texto-principal)
-}
-
-/**/
-
-#formacao {
+  background: var(--texto-principal);
 }
 
 .formacao-content{
@@ -567,7 +562,16 @@ body {
   height: 3rem;
 }
 
-.formacao-content h1
+/* Idiomas*/
+.idiomas-item {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.linha {
+  border-bottom: 1px solid var(--texto-secundario);
+  
+}
 
 /* Footer*/
 #footer{}
